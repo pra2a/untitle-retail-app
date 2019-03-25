@@ -47,8 +47,8 @@ class LoginPage extends React.Component {
         <Header
           absolute
           color="transparent"
-          brand="Material Kit React"
-          rightLinks={<HeaderLinks />}
+          brand="Untitled Retail App"
+          // rightLinks={<HeaderLinks />}
           {...rest}
         />
         <div
@@ -65,41 +65,11 @@ class LoginPage extends React.Component {
                 <Card className={classes[this.state.cardAnimaton]}>
                   <form className={classes.form}>
                     <CardHeader color="primary" className={classes.cardHeader}>
-                      <h4>Login</h4>
-                      <div className={classes.socialLine}>
-                        <Button
-                          justIcon
-                          href="#pablo"
-                          target="_blank"
-                          color="transparent"
-                          onClick={e => e.preventDefault()}
-                        >
-                          <i className={"fab fa-twitter"} />
-                        </Button>
-                        <Button
-                          justIcon
-                          href="#pablo"
-                          target="_blank"
-                          color="transparent"
-                          onClick={e => e.preventDefault()}
-                        >
-                          <i className={"fab fa-facebook"} />
-                        </Button>
-                        <Button
-                          justIcon
-                          href="#pablo"
-                          target="_blank"
-                          color="transparent"
-                          onClick={e => e.preventDefault()}
-                        >
-                          <i className={"fab fa-google-plus-g"} />
-                        </Button>
-                      </div>
+                      <h4>Inicio de Sesión</h4>
                     </CardHeader>
-                    <p className={classes.divider}>Or Be Classical</p>
                     <CardBody>
                       <CustomInput
-                        labelText="First Name..."
+                        labelText="Usuario"
                         id="first"
                         formControlProps={{
                           fullWidth: true
@@ -114,22 +84,7 @@ class LoginPage extends React.Component {
                         }}
                       />
                       <CustomInput
-                        labelText="Email..."
-                        id="email"
-                        formControlProps={{
-                          fullWidth: true
-                        }}
-                        inputProps={{
-                          type: "email",
-                          endAdornment: (
-                            <InputAdornment position="end">
-                              <Email className={classes.inputIconsColor} />
-                            </InputAdornment>
-                          )
-                        }}
-                      />
-                      <CustomInput
-                        labelText="Password"
+                        labelText="Contraseña"
                         id="pass"
                         formControlProps={{
                           fullWidth: true
@@ -148,7 +103,7 @@ class LoginPage extends React.Component {
                     </CardBody>
                     <CardFooter className={classes.cardFooter}>
                       <Button simple color="primary" size="lg">
-                        Get started
+                        Iniciar Sesión
                       </Button>
                     </CardFooter>
                   </form>
