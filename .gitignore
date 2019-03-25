@@ -15,6 +15,7 @@
 .env.development.local
 .env.test.local
 .env.production.local
+/holis
 
 package-lock.json
 
@@ -26,3 +27,4 @@ yarn-error.log*
 /dist
 # compiled css
 *.css
+

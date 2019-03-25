@@ -1,16 +1,23 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { createBrowserHistory } from "history";
-import { Router, Route, Switch } from "react-router-dom";
+import { Router, Route, Switch, Redirect } from "react-router-dom";
 
-import "assets/scss/material-kit-react.scss?v=1.4.0";
+// core components
+import Admin from "layouts/Admin.jsx";
+import RTL from "layouts/RTL.jsx";
 
-// pages for this product
-import Components from "views/Components/Components.jsx";
-import LandingPage from "views/LandingPage/LandingPage.jsx";
-import ProfilePage from "views/ProfilePage/ProfilePage.jsx";
-import LoginPage from "views/LoginPage/LoginPage.jsx";
+import "assets/css/material-dashboard-react.css?v=1.6.0";
 
-var hist = createBrowserHistory();
+const hist = createBrowserHistory();
 
-ReactDOM.render(<LoginPage />, document.getElementById("root"));
+ReactDOM.render(
+  <Router history={hist}>
+    <Switch>
+      <Route path="/admin" component={Admin} />
+      <Route path="/rtl" component={RTL} />
+      <Redirect from="/" to="/admin/dashboard" />
+    </Switch>
+  </Router>,
+  document.getElementById("root")
+);
