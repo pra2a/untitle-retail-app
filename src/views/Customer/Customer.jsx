@@ -12,6 +12,7 @@ import CardHeader from "components/Card/CardHeader.jsx";
 import CardAvatar from "components/Card/CardAvatar.jsx";
 import CardBody from "components/Card/CardBody.jsx";
 import CardFooter from "components/Card/CardFooter.jsx";
+
 import Icon from "@material-ui/core/Icon";
 // @material-ui/icons
 import Store from "@material-ui/icons/Store";
@@ -55,38 +56,62 @@ function Customer(props) {
   return (
     <div>
       <GridContainer>
-        <GridItem xs={12} sm={12} md={8}>
-
-        <Card>
-              <CardHeader color="success" stats icon>
-                <CardIcon color="success">
-                  <Icon>content_copy</Icon>
-                </CardIcon>
-                <p className={classes.cardCategory}>Used Space</p>
-                <h3 className={classes.cardTitle}>
-                  49/50 <small>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</small>
-                </h3>
-              </CardHeader>
-              <CardFooter stats>
-                <div className={classes.stats}>
-                  <Danger>
-                    <Warning />
-                  </Danger>
-                  <a href="#pablo" onClick={e => e.preventDefault()}>
-                    Get more space
-                  </a>
-                </div>
-              </CardFooter>
-            </Card>
-          
-        </GridItem>
-        <GridItem xs={12} sm={12} md={4}>
+          <GridItem xs={12} sm={6} md={3}>
+              <Card>
+                  <CardHeader color="primary" stats icon>
+                      <CardIcon color="primary">
+                          <Icon>info_outline</Icon>
+                      </CardIcon>
+                      <p className={classes.cardCategory}>Cierres Diarios del Mes</p>
+                      <h3 className={classes.cardTitle}>2/2<sup> </sup></h3>
+                  </CardHeader>
+                  <CardFooter stats>
+                      <div className={classes.stats}>
+                          <Update />
+                          Cerrados/Pendientes
+                      </div>
+                  </CardFooter>
+              </Card>
+          </GridItem>
+          <GridItem xs={12} sm={6} md={3}>
+              <Card>
+                  <CardHeader color="primary" stats icon>
+                      <CardIcon color="primary">
+                          <Icon>info_outline</Icon>
+                      </CardIcon>
+                      <p className={classes.cardCategory}>Cierres Diarios del Mes</p>
+                      <h3 className={classes.cardTitle}>2/2<sup> </sup></h3>
+                  </CardHeader>
+                  <CardFooter stats>
+                      <div className={classes.stats}>
+                          <Update />
+                          Cerrados/Pendientes
+                      </div>
+                  </CardFooter>
+              </Card>
+          </GridItem>
+          <GridItem xs={12} sm={6} md={3}>
+              <Card>
+                  <CardHeader color="primary" stats icon>
+                      <CardIcon color="primary">
+                          <Icon>info_outline</Icon>
+                      </CardIcon>
+                      <p className={classes.cardCategory}>Cierres Diarios del Mes</p>
+                      <h3 className={classes.cardTitle}>2/2<sup> </sup></h3>
+                  </CardHeader>
+                  <CardFooter stats>
+                      <div className={classes.stats}>
+                          <Update />
+                          Cerrados/Pendientes
+                      </div>
+                  </CardFooter>
+              </Card>
+          </GridItem>
+        <GridItem xs={12} sm={6} md={3}>
           <Card profile>
-            <CardAvatar profile>
-              <a href="#pablo" onClick={e => e.preventDefault()}>
-                <img src={avatar} alt="..." />
-              </a>
-            </CardAvatar>
+            <CardIcon profile>
+                <Icon>user</Icon>
+            </CardIcon>
             <CardBody profile>
               <h6 className={classes.cardCategory}><b>DNI:</b> 19584784</h6>
               <h4 className={classes.cardTitle}>Alec Thompson</h4>

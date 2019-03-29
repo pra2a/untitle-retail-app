@@ -17,38 +17,32 @@ import Icons from "views/Icons/Icons.jsx";
 import Maps from "views/Maps/Maps.jsx";
 import NotificationsPage from "views/Notifications/Notifications.jsx";
 import UpgradeToPro from "views/UpgradeToPro/UpgradeToPro.jsx";
-// core components/views for RTL layout
-import RTLPage from "views/RTLPage/RTLPage.jsx";
 
 const dashboardRoutes = [
   {
     path: "/dashboard",
     name: "Inicio",
-    rtlName: "لوحة القيادة",
     icon: "home",
     component: DashboardPage,
     layout: "/admin"
   },
   {
-    path: "/user",
-    name: "Usuario",
-    rtlName: "ملف تعريفي للمستخدم",
-    icon: Person,
-    component: UserProfile,
-    layout: "/admin"
-  },
-  {
-    path: "/client",
+    path: "/customer",
     name: "Cliente",
-    rtlName: "ملف تعريفي للمستخدم",
     icon: Person,
     component: Customer,
     layout: "/admin"
   },
   {
+      path: "/user",
+      name: "Usuario",
+      icon: "assignment_ind",
+      component: UserProfile,
+      layout: "/admin"
+  },
+  {
     path: "/table",
     name: "Table List",
-    rtlName: "قائمة الجدول",
     icon: "content_paste",
     component: TableList,
     layout: "/admin"
@@ -56,7 +50,6 @@ const dashboardRoutes = [
   {
     path: "/typography",
     name: "Typography",
-    rtlName: "طباعة",
     icon: LibraryBooks,
     component: Typography,
     layout: "/admin"
@@ -64,7 +57,6 @@ const dashboardRoutes = [
   {
     path: "/icons",
     name: "Icons",
-    rtlName: "الرموز",
     icon: BubbleChart,
     component: Icons,
     layout: "/admin"
@@ -72,7 +64,6 @@ const dashboardRoutes = [
   {
     path: "/maps",
     name: "Maps",
-    rtlName: "خرائط",
     icon: LocationOn,
     component: Maps,
     layout: "/admin"
@@ -80,7 +71,6 @@ const dashboardRoutes = [
   {
     path: "/notifications",
     name: "Notifications",
-    rtlName: "إخطارات",
     icon: Notifications,
     component: NotificationsPage,
     layout: "/admin"

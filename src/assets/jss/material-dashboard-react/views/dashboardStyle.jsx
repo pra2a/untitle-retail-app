@@ -75,7 +75,10 @@ const dashboardStyle = {
       color: grayColor[1],
       fontWeight: "400",
       lineHeight: "1"
-    }
+    },
+      "& .material-icons":{
+      marginBottom: "-3px"
+      }
   }
 };
 
