@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5c80465-8de7-410f-a882-3d2267ec777a" name="Default Changelist" comment="-Icon Changed.&#10;-Login as main page">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,7 +30,7 @@
           <entry key="css" value="2" />
           <entry key="html" value="5" />
           <entry key="js" value="6" />
-          <entry key="json" value="1" />
+          <entry key="json" value="2" />
           <entry key="jsx" value="32" />
           <entry key="md" value="5" />
           <entry key="png" value="1" />
@@ -42,7 +43,7 @@
           <entry key="CSS" value="2" />
           <entry key="HTML" value="5" />
           <entry key="Image" value="1" />
-          <entry key="JSON" value="1" />
+          <entry key="JSON" value="2" />
           <entry key="JSX Harmony" value="32" />
           <entry key="JavaScript" value="6" />
           <entry key="Markdown" value="2" />
@@ -55,6 +56,7 @@
         <counts>
           <entry key="html" value="78" />
           <entry key="js" value="79" />
+          <entry key="json" value="214" />
           <entry key="jsx" value="1254" />
           <entry key="md" value="1" />
           <entry key="txt" value="49" />
@@ -63,6 +65,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="78" />
+          <entry key="JSON" value="214" />
           <entry key="JSX Harmony" value="1254" />
           <entry key="JavaScript" value="79" />
           <entry key="PLAIN_TEXT" value="50" />
@@ -77,10 +80,11 @@
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
           <entry key="git.branch.checkout.local" value="1" />
-          <entry key="git.branch.checkout.remote" value="1" />
-          <entry key="git.branch.create.new" value="1" />
-          <entry key="git.branch.delete.local" value="1" />
-          <entry key="git.branch.merge" value="2" />
+          <entry key="git.branch.checkout.remote" value="2" />
+          <entry key="git.branch.compare" value="1" />
+          <entry key="git.branch.create.new" value="2" />
+          <entry key="git.branch.delete.local" value="2" />
+          <entry key="git.branch.merge" value="3" />
         </counts>
       </usages-collector>
     </session>
@@ -108,7 +112,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assets/jss/material-dashboard-react/views/dashboardStyle.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1258">
+            <state>
               <caret line="79" column="25" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
             </state>
           </provider>
@@ -149,11 +153,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+            <state relative-caret-position="105">
+              <caret line="35" selection-start-line="34" selection-start-column="4" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -206,6 +219,7 @@
         <option value="$PROJECT_DIR$/src/layouts/Admin.jsx" />
         <option value="$PROJECT_DIR$/src/components/Sidebar/Sidebar.jsx" />
         <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -214,6 +228,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
@@ -317,11 +334,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553892531768</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="-Icon Changed.&#10;-Login as main page">
+      <created>1554130324654</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554130324654</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35655000" />
+    <option name="totallyTimeSpent" value="40431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1406" height="806" extended-state="6" />
@@ -338,9 +362,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.500731" side_tool="true" visible="true" weight="0.48142645" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.499269" visible="true" weight="0.48142645" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.499269" weight="0.32986626" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.501462" side_tool="true" weight="0.48142645" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49853802" visible="true" weight="0.48142645" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -504,7 +528,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/jss/material-dashboard-react/views/dashboardStyle.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
+        <state>
           <caret line="79" column="25" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
         </state>
       </provider>
@@ -550,8 +574,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+        <state relative-caret-position="105">
+          <caret line="35" selection-start-line="34" selection-start-column="4" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
         </state>
       </provider>
     </entry>
