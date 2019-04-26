@@ -136,10 +136,10 @@ const emailsSubscriptionChart = {
 
 const completedTasksChart = {
   data: {
-    labels: ["7a", "8a", "9a", "10a", "12m", "1p", "2p", "3p", "4p", "5p", "6p", "7p"],
-    series: [[12, 9, 7, 8, 5],
-        [2, 1, 3, 7, 3],
-        [1, 3, 4, 5, 6]]
+    labels: ["Febrero", "Marzo", "Abril"],
+    series: [[12, 9, 7],
+        [2, 1, 3],
+        [1, 3, 4]]
   },
   options: {
     lineSmooth: Chartist.Interpolation.cardinal({
