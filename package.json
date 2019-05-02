@@ -1,7 +1,7 @@
 {
-  "name": "material-dashboard-react",
-  "version": "1.6.0",
-  "description": "Material Dashboard React. Coded by Creative Tim",
+  "name": "untitled-retail-app",
+  "version": "1.0.0",
+  "description": "Untitled Retail App, Mod by Luis Prada, base on the Dashboard Materialize Template by Creative Tim",
   "private": false,
   "main": "dist/index.js",
   "dependencies": {
@@ -23,6 +23,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
@@ -34,15 +36,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/creativetimofficial/material-dashboard-react.git"
+    "url": "git+https://github.com/pra2a/untitle-retail-app.git"
   },
   "keywords": [],
-  "author": "Creative Tim <hello@creative-tim.com> (https://www.creative-tim.com/)",
+  "author": "Luis Prada <pradam.luisadej@gmail.com>",
+  "template_author": "Creative Tim <hello@creative-tim.com> (https://www.creative-tim.com/)",
+  "homepage": "https://pra2a.github.io/untitle-retail-app/",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/creativetimofficial/material-dashboard-react/issues"
-  },
-  "homepage": "https://creativetimofficial.github.io/material-dashboard-react/#/dashboard",
   "optionalDependencies": {
     "@types/googlemaps": "3.30.16",
     "@types/markerclustererplus": "2.1.33",
@@ -56,6 +56,7 @@
   ],
   "devDependencies": {
     "eslint-config-prettier": "4.0.0",
-    "eslint-plugin-prettier": "3.0.1"
+    "eslint-plugin-prettier": "3.0.1",
+    "gh-pages": "^2.0.1"
   }
 }

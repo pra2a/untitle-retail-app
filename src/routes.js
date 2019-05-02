@@ -41,38 +41,17 @@ const dashboardRoutes = [
       layout: "/admin"
   },
   {
-    path: "/table",
-    name: "Table List",
-    icon: "content_paste",
-    component: TableList,
+    path: "/cashcount",
+    name: "Cierre Diario",
+    icon: "info_outline",
+    component: Customer,
     layout: "/admin"
   },
   {
-    path: "/typography",
-    name: "Typography",
-    icon: LibraryBooks,
-    component: Typography,
-    layout: "/admin"
-  },
-  {
-    path: "/icons",
-    name: "Icons",
-    icon: BubbleChart,
-    component: Icons,
-    layout: "/admin"
-  },
-  {
-    path: "/maps",
-    name: "Maps",
-    icon: LocationOn,
-    component: Maps,
-    layout: "/admin"
-  },
-  {
-    path: "/notifications",
-    name: "Notifications",
-    icon: Notifications,
-    component: NotificationsPage,
+    path: "/cashcount",
+    name: "Salir del Sistema",
+    icon: "settings_power",
+    component: Customer,
     layout: "/admin"
   }
   
