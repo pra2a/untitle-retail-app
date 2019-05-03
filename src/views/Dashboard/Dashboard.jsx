@@ -17,6 +17,9 @@ import CardIcon from "components/Card/CardIcon.jsx";
 import CardBody from "components/Card/CardBody.jsx";
 import CardFooter from "components/Card/CardFooter.jsx";
 
+import { Provider } from 'react-redux';
+import store from './store';
+
 import { bugs, website, server } from "variables/general.jsx";
 
 import {
@@ -31,6 +34,7 @@ class Dashboard extends React.Component {
   state = {
     value: 0
   };
+
   handleChange = (event, value) => {
     this.setState({ value });
   };
@@ -38,10 +42,11 @@ class Dashboard extends React.Component {
   handleChangeIndex = index => {
     this.setState({ value: index });
   };
+
   render() {
     const { classes } = this.props;
     return (
-      <div>
+    <div>
         <GridContainer>
           <GridItem xs={12} sm={6} md={3}>
             <Card>
